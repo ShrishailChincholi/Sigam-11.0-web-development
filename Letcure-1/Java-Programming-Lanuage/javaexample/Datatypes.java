@@ -1,5 +1,7 @@
-// DataType in  Java
 
+import java.util.Scanner;
+
+// DataType in  Java
 public class Datatypes {
 
     public static void main(String[] args) {
@@ -27,3 +29,37 @@ class SumofTwo {
     }
 }
 
+
+// Sum of TwoNumber
+class inputsumofAandB{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+    }
+}
+
+
+//  Product of a & b 
+class product {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int product = a * b;
+        System.out.println(product);
+    }
+}
+
+
+// Area of Circule
+class  AreaoofCircule{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        float radius = 3.14f * r*r;
+        System.out.println(radius);
+    }
+}
