@@ -1,7 +1,7 @@
+// DataType, Type Casting in  Java And Examples
 
 import java.util.Scanner;
 
-// DataType in  Java
 public class Datatypes {
 
     public static void main(String[] args) {
@@ -29,9 +29,9 @@ class SumofTwo {
     }
 }
 
-
 // Sum of TwoNumber
-class inputsumofAandB{
+class inputsumofAandB {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -41,9 +41,9 @@ class inputsumofAandB{
     }
 }
 
-
 //  Product of a & b 
 class product {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -53,13 +53,31 @@ class product {
     }
 }
 
-
 // Area of Circule
-class  AreaoofCircule{
+class AreaoofCircule {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();
-        float radius = 3.14f * r*r;
+        float radius = 3.14f * r * r;
         System.out.println(radius);
+    }
+}
+
+
+/*
+Type Casting
+ */
+class typecast {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float a = 25.887f;
+        int b = (int) a;
+        System.err.println(b);
+
+        char ch = 'b';
+        int number = (int) ch;
+        System.err.println(number);
     }
 }
