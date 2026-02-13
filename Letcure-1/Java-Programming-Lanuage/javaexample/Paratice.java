@@ -38,3 +38,28 @@ class Areasquare{
 area of the square is : 25
 */
 
+
+class sloution{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float pencil = sc.nextFloat();
+        float pen = sc.nextFloat();
+        float scale = sc.nextFloat();
+
+        float Total = pencil + pen + scale;
+        System.err.println("Bill is : - "+Total);
+
+        float newTotal = Total +(0.18f  * Total);
+
+        System.err.println("Bill With 18 % tax");
+
+    }
+}
+
+/*
+10
+20
+30
+Bill is : - 60.0
+Bill With 18 % tax
+*/
