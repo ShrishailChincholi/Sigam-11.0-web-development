@@ -23,7 +23,10 @@ public  class Operators{
         System.err.println("OR statment" +((3<2) || (5>0)));
         System.err.println("NOT statment "+!(3<2));
         
-        
+        // Assignment Operators
+        int n3 = 10;
+        n3 += 10;
+        System.out.println("Assignment Operators"+n1);
 
     }
 }
@@ -42,4 +45,5 @@ true
 AND statment false
 OR statmenttrue
 NOT statment true
+20
 */
