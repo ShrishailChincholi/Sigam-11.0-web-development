@@ -63,3 +63,60 @@ class sloution{
 Bill is : - 60.0
 Bill With 18 % tax
 */
+
+
+// CONDITIONAL STATEMENTS QUESTIONS
+class solution1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a > 0){
+            System.out.println("Posstive Number");
+        }else{
+            System.out.println("Negative  Number");
+        }
+    }
+}
+
+class solution2{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double temp = sc.nextDouble();
+        if(temp > 100){
+            System.out.println("You have a fever");
+        }else{
+            System.out.println("You Don't have fever");
+        }
+    }
+}
+
+class SwitchCase{
+    public static void main(String[] args) {
+        System.err.println("Enter 1-7 week number ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        switch (num) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.err.println("Wednesday");
+                break;
+            case 4:
+                System.err.println("Thursday");
+                break;
+            case 5:
+                System.err.println("Friday");
+                break;
+            case 6:
+                System.err.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid input! Please enter week number between 1-7.");
+            break;
+        }
+    }
+}
