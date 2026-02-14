@@ -13,15 +13,15 @@ public  class Operators{
         // Relational Operators
         int n1 = 10;
         int n2 = 10;
-        System.err.println(n1 == n2);
-        System.err.println(n1 != n2);
-        System.err.println(n1 >= n2);
-        System.err.println(n1 <= n2);
+        System.out.println(n1 != n2);
+        System.out.println(n1 == n2);
+        System.out.println(n1 >= n2);
+        System.out.println(n1 <= n2);
 
         // Logical Operators
-        System.err.println("AND statment "+((3<2) && (5>0)));
-        System.err.println("OR statment" +((3<2) || (5>0)));
-        System.err.println("NOT statment "+!(3<2));
+        System.out.println("AND statment "+((3<2) && (5>0)));
+        System.out.println("OR statment" +((3<2) || (5>0)));
+        System.out.println("NOT statment "+!(3<2));
         
         // Assignment Operators
         int n3 = 10;
