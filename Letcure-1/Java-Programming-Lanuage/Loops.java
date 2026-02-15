@@ -6,12 +6,14 @@ public class Loops {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter u r choice (while) & (Infinate) & (Print1-n)");
+        System.out.println("Enter u r choice (while) & (Infinate) & (Print1-n) & (SUM-N)");
         String choice = sc.next();
         System.out.println("Enter Your Range");
         int range = sc.nextInt();
         int count = 0;
         int num = 1;
+        int sum = 0;
+        int i = 1;
         switch (choice) {
             case "while":
                 while (count < range) {
@@ -29,6 +31,13 @@ public class Loops {
                 System.out.print(" " + num);
                 num++;
             }
+            break;
+            case "SUM-N":
+                while(i <= range) {
+                    sum = sum+i;
+                    i++;
+            }
+            System.out.println("sum = "+sum);
             break;
             default:
                 System.out.println("Wrong Choice");
