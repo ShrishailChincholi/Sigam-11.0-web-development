@@ -15,6 +15,8 @@ public class forLoop {
             System.out.println("****");
         }
     } */
+
+ /*
 // Print Reverse of a number
     public static void main(String[] args) {
         int n = 10837;
@@ -24,6 +26,20 @@ public class forLoop {
             n = n/10;
         }
         System.out.println();
+    }
+     */
+
+    //  Reverse the given number
+    public static void main(String[] args) {
+        int n = 18766;
+        int rev = 0;
+
+        while (n >0) { 
+            int lastDigit = n %10;
+            rev = (rev*10) +lastDigit;
+            n = n/10;
+        }
+        System.out.println(rev);
     }
 
 }
