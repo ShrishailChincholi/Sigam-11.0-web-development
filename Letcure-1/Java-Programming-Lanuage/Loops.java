@@ -1,4 +1,4 @@
-
+// While Loop
 import java.util.Scanner;
 
 // While loops work with Infinate and 1- n number print
