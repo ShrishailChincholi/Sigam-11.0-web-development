@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 public class Dowhile {
 
 // do while 
@@ -44,6 +47,7 @@ public static void main(String[] args) {
 
 //  Continue Statement
 
+/*
 public static void main(String[] args) {
     for (int i = 0; i < 10; i++) {
         if(i == 3){
@@ -52,6 +56,20 @@ public static void main(String[] args) {
         System.out.println(i);
     }
 }
+*/
 
+//  Continue keyword using example
+// Display all number entered by user except multiples of 10
+public static void main(String[] args) {
+    Scanner sc  = new Scanner(System.in);
+    do { 
+        System.out.println("Enter Your Number ");
+        int n = sc.nextInt();
+        if(n % 10 == 0){
+            continue;
+        }
+        System.out.println("Number was : "+ n);
+    } while (true);
+}
 
 }
