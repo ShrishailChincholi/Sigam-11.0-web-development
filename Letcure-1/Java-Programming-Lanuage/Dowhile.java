@@ -2,6 +2,8 @@
 import java.util.Scanner;
 
 
+
+
 public class Dowhile {
 
 // do while 
@@ -60,6 +62,7 @@ public static void main(String[] args) {
 
 //  Continue keyword using example
 // Display all number entered by user except multiples of 10
+/*
 public static void main(String[] args) {
     Scanner sc  = new Scanner(System.in);
     do { 
@@ -70,6 +73,29 @@ public static void main(String[] args) {
         }
         System.out.println("Number was : "+ n);
     } while (true);
+}
+*/
+
+
+// Check if a number is prime or not
+public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    if(n == 2){
+        System.out.println("n is prime");
+    }else{
+        boolean isprime = true;
+        for(int i = 2; i<=n-1; i++){
+            isprime = false;
+        }
+
+        if(isprime == true){
+            System.out.println(" n is prime number");
+        }else{
+            System.out.println("n is not prime number");
+        }
+    }
 }
 
 }
