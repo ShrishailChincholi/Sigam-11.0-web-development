@@ -148,3 +148,19 @@ class seon{
         } while (choice ==1);
     }
 }
+
+
+// Write a program to find the factorialof any number entered by the user
+class facr{
+    public static void main(String[] args) {
+        Scanner  sc = new Scanner(System.in);
+        int num;
+        int fact = 1;
+        System.out.println("Enter any Postive integer: ");
+        num = sc.nextInt();
+        for(int i =1; i<= num; i++){
+            fact *= i;
+        }
+        System.out.println("Factorial: "+fact);
+    }
+}
