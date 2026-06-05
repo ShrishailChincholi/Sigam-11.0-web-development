@@ -1,0 +1,59 @@
+Q1. Self-learning
+
+Search on the internet and learn how to use the <video> tag in HTML (similar to the <img> tag).
+
+Answer:
+The <video> tag is used to display videos on a web page.
+
+Example:
+<video width="400" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+--------------------------------------------------
+
+Q2. Is the <video> tag a semantic tag?
+
+Answer:
+No, the <video> tag is not a semantic tag. It is a multimedia tag used to display video content.
+
+--------------------------------------------------
+
+Q3. Print the following using HTML tags.
+
+Answer:
+<b>HTML</b>
+<i>HyperText Markup Language</i>
+<u>Used for creating web pages</u>
+
+--------------------------------------------------
+
+Q4. Add a new section to your portfolio page for your achievements.
+
+Answer:
+
+<section>
+    <b>My Achievements</b>
+
+    <ul>
+        <li>Participated in coding competitions.</li>
+        <li>Completed Machine Learning projects.</li>
+        <li>Attended technical workshops.</li>
+        <li>Learned Web Development and Python.</li>
+    </ul>
+
+    <hr>
+</section>
+
+--------------------------------------------------
+
+Q5. Print the symbols for copyright and trademark on your webpage.
+
+Answer:
+
+Copyright Symbol: &copy;   (©)
+
+Trademark Symbol: &trade;  (™)
+
+--------------------------------------------------
+
