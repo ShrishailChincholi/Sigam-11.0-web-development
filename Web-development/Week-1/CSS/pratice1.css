@@ -106,3 +106,18 @@ input[type="radio"]:checked+label {
 .post:nth-last-of-type(2n){
     background-color: blanchedalmond;
 }
+
+
+/* Pseudo Element  */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: black;
+}
+
+p::selection{
+    background-color: rgb(92, 151, 92);
+}
