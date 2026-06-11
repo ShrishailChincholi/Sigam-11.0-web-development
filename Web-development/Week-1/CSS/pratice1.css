@@ -24,3 +24,14 @@ h1, h3{
     color: aliceblue;
     background-color: green;
 }
+
+
+/* Descendant selector */
+.post a{
+    color: purple;
+    background-color: aliceblue;
+}
+
+nav li ul a {
+    color: hotpink;
+}
