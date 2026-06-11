@@ -121,3 +121,9 @@ p::first-line{
 p::selection{
     background-color: rgb(92, 151, 92);
 }
+
+
+/* !important we use fixed css apply can't be changed  */
+h3{
+    color: #b92b27 !important;
+}
