@@ -1,9 +1,26 @@
-/* Universal selectors */
+/* Universal selector */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Element selectors */
+/* Element selector */
 h1, h3{
     color: #b92b27;
+}
+
+
+/* ID selector */
+ #login{
+    background-color: white;
+ }
+
+ #signup{
+    background-color:#b92b27 ;
+ }
+
+
+ /* Class Selector */
+.upvote{
+    color: aliceblue;
+    background-color: green;
 }
