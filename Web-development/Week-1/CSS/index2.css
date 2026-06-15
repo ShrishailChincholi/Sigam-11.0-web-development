@@ -1,0 +1,42 @@
+
+div{
+    height: 200px;
+    width:500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1{
+    border-width: 2px;
+    border-style:  dashed;
+    border-color: green;
+}
+
+
+
+/* Border Shorthand */
+div{
+    height: 200px;
+    width:500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style:  dashed;
+    border-color: green; */
+    border: 2px dashed green;
+}
+
+
+/* Border size */
+div{
+    border-left-color: blue;
+    border-left-style: dashed;
+}
