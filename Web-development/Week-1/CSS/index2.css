@@ -40,3 +40,30 @@ div{
     border-left-color: blue;
     border-left-style: dashed;
 }
+
+/* Border radius */
+div{
+    border-radius: 10px;
+}
+
+/* Padding */
+div{
+    padding: 50px;
+}
+
+/* Padding shorthand */
+div{
+    padding: 50px;
+    padding:  1px 2px;   /* left & right */
+    padding:  1px 2px 3px;
+}
+
+/* Margin */
+div{
+    margin: 20px;
+}
+
+/*  */
+div{
+    margin: 10px 20px 30px;
+}
