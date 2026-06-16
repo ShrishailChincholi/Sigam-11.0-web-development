@@ -67,3 +67,27 @@ div{
 div{
     margin: 10px 20px 30px;
 }
+
+
+
+/* Display property */
+
+span{
+    background-color: lime;
+    border: 2px solid black;
+    height: 10px;
+    width: 20px;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+/* Display-inline block */
+.in-block{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
