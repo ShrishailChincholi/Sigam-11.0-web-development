@@ -24,3 +24,23 @@
 
 }
 
+/* Ans-2 */
+#navbar{
+   height: 50px;
+   width: 900px;
+   background-color: rgb(242, 106, 210); 
+   border: 2px solid black;
+   display: flex;
+   justify-content: flex-start;
+   align-content: center;
+   font-size: 24px;
+}
+
+.option{
+    height:50px;
+    width:80px;
+    border-radius:10px;
+    margin-left:5px;
+    font-size:24px;
+    line-height:50px;
+}
