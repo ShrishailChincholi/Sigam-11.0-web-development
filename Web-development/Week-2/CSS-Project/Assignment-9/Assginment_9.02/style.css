@@ -1,0 +1,60 @@
+/* Q2. Create the following layout using CSS Grid
+
+1. Divide the grid into 11 rows and 12 columns.
+2. Give a gap of 10px between rows and columns.
+3. Arrange the boxes as shown in the image.
+*/
+
+#main-container {
+    height: 720px;
+    width: 720px;
+
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+
+    gap: 10px;
+}
+
+.box {
+    background-color: pink;
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* Header */
+.header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 13;
+}
+
+/* Navigation */
+.navi {
+    grid-row: 2 / 3;
+    grid-column: 1 / 13;
+}
+
+/* Sidebar */
+.sidebar {
+    grid-row: 3 / 12;
+    grid-column: 1 / 4;
+}
+
+/* Main Content */
+.main {
+    grid-row: 3 / 12;
+    grid-column: 4 / 13;
+}
+
+/* Ads */
+.ads {
+    grid-row: 12 / 13;
+    grid-column: 1 / 4;
+}
+
+/* Footer */
+.footer {
+    grid-row: 12 / 13;
+    grid-column: 4 / 13;
+}
