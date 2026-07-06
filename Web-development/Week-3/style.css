@@ -17,7 +17,7 @@
     width: 340px;
     border-radius: 1rem;
     background-color: #121212;
-    margin-right: 0.5rem ;
+    margin-right: 0.5rem;
 
 }
 
@@ -90,14 +90,14 @@ a {
     width: 1.25rem;
 }
 
-.icons{
+.icons {
     font-size: 1.25rem;
     opacity: 0.7;
     margin-right: 1rem;
     display: flex;
 }
 
-.icons i{
+.icons i {
     opacity: 1;
     margin-right: 1rem;
 }
@@ -106,7 +106,7 @@ a {
     opacity: 1;
 }
 
-.box{
+.box {
     background-color: #232323;
     height: 8rem;
     border-radius: 1rem;
@@ -114,24 +114,60 @@ a {
     padding: 0.75rem 1rem;
 }
 
-.box-p1{
+.box-p1 {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.box-p2{
+.box-p2 {
     font-size: 0.85rem;
     opacity: 0.9;
 }
 
-.badge{
+.badge {
     background-color: #fff;
     color: black;
     border: none;
     border-radius: 100px;
     padding: 0.25rem 1rem;
-    font-weight:  700;
+    font-weight: 700;
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons i {
+    margin-left: 0.5rem;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-items{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
 }
