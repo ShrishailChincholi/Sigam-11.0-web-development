@@ -67,3 +67,15 @@ if (a >= b && a >= c) {
 } else {
     console.log("Largest number is:", c);
 }
+
+
+// Q6. Check if two numbers have the same last digit
+
+let num1 = 32;
+let num2 = 47852;
+
+if (num1 % 10 === num2 % 10) {
+    console.log("Both numbers have the same last digit.");
+} else {
+    console.log("Both numbers do not have the same last digit.");
+}
