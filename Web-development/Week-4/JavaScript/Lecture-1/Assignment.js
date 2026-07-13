@@ -41,3 +41,29 @@ switch (quarter) {
     default:
         console.log("Invalid Quarter");
 }
+
+
+// Q4. Check if a string is a Golden String
+
+let str = "Apnacollege";
+
+if ((str[0] === "A" || str[0] === "a") && str.length > 5) {
+    console.log("Golden String");
+} else {
+    console.log("Not a Golden String");
+}
+
+
+// Q5. Find the largest of 3 numbers
+
+let a = 10;
+let b = 25;
+let c = 18;
+
+if (a >= b && a >= c) {
+    console.log("Largest number is:", a);
+} else if (b >= a && b >= c) {
+    console.log("Largest number is:", b);
+} else {
+    console.log("Largest number is:", c);
+}
