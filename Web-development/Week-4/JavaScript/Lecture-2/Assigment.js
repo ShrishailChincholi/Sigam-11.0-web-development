@@ -42,3 +42,27 @@ let message = "   Hello JavaScript   ";
 
 console.log("Before Trim:", message);
 console.log("After Trim:", message.trim());
+
+
+
+// Q6. Check if an element exists in an array
+
+let numbers = [10, 20, 30, 40, 50];
+let element = 30;
+
+if (numbers.includes(element)) {
+    console.log("Element exists in the array");
+} else {
+    console.log("Element does not exist in the array");
+}
+
+
+
+// Output
+// First 3 elements: [7, 9, 0]
+// Last 3 elements: [9, 0, -2]
+// String is blank
+// Character is lowercase
+// Before Trim:    Hello JavaScript   
+// After Trim: Hello JavaScript
+// Element exists in the array
