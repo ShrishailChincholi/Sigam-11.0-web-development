@@ -20,3 +20,25 @@ if (str.length === 0) {
 } else {
     console.log("String is not blank");
 }
+
+
+
+
+// Q4. Check whether the character at the given index is lowercase
+
+let text = "ApnaCollege";
+let index = 4;
+
+if (text[index] === text[index].toLowerCase()) {
+    console.log("Character is lowercase");
+} else {
+    console.log("Character is not lowercase");
+}
+
+
+// Q5. Strip leading and trailing spaces from a string
+
+let message = "   Hello JavaScript   ";
+
+console.log("Before Trim:", message);
+console.log("After Trim:", message.trim());
