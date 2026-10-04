@@ -103,3 +103,48 @@ public class Main {
         System.out.println(search(nums, target));
     }
 }
+
+
+
+
+// Question 3: Best Time to Buy and Sell Stock
+// You are given an array prices where prices[i] is the price of a given stock on the ith day.
+// Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+// Example 1:
+// Input: prices = [7,1,5,3,6,4]
+// Output: 5
+// Example 2:
+// Input: prices = [7,6,4,3,1]
+// Output: 0
+// Constraints:
+// - 1 <= prices.length <= 10⁵
+// - 0 <= prices[i] <= 10⁴
+
+
+public class Main {
+
+    public static int maxProfit(int[] prices) {
+        int minPrice = prices[0];
+        int maxProfit = 0;
+
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] < minPrice) {
+                minPrice = prices[i];
+            }
+
+            int profit = prices[i] - minPrice;
+
+            if (profit > maxProfit) {
+                maxProfit = profit;
+            }
+        }
+
+        return maxProfit;
+    }
+
+    public static void main(String[] args) {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+
+        System.out.println(maxProfit(prices));
+    }
+}
